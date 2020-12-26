@@ -1,0 +1,281 @@
+/* Nav bar section */
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #4895ef, #3a0ca3);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* End of nav bar section */
+
+/* Banner section */
+
+#banner {
+    background-image: linear-gradient(to right, #4895ef, #3a0ca3);
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 2rem;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-image img {
+    width: 500px;
+}
+
+.hero-image {
+    margin: auto;
+    display: block;
+}
+
+.hero-text {
+    /* padding-bottom: 2rem; */
+}
+/* End of banner section */
+
+/* Start of services section */
+
+#services {
+    padding: 60px 0;
+}
+
+.services-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #4361ee;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px); 
+}
+
+/* .title::after {
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; 
+    display: block;
+    transform: translateY(8px);  */
+    /* Potential problem here with lines not aligning on mobile. */
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4895ef, #3a0ca3);
+}
+
+/* End of services section */
+
+/* Start of About Us section */
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+.why-us-image img {
+    width: 500px;
+}
+
+.why-us-image {
+    margin: auto;
+    display: block;
+}
+
+/* End of About Us section */
+
+/* Start of Testimonials section */
+
+#testimonials {
+    margin: 50px 0;
+}
+
+.testimonials {
+    border-left: 4px solid #4361ee; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+#testimonials .container .row {
+    padding-top: 5vmin;
+}
+
+/* End of Testimonials section */
+
+/* Start of Social Media section */
+
+#social-media {
+    background: #f8f9fa;
+    padding: 75px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+
+/* Footer section */
+
+#footer {
+    background-image: linear-gradient(to right, #4895ef, #3a0ca3);
+    color: #fff;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 100px;
+    margin-bottom: 7px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px; 
+    background-image: linear-gradient(to right, #4895ef, #3a0ca3);
+}
+
+hr {
+    background-color: white;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
