@@ -207,7 +207,7 @@ body {
 }
 
 #testimonials .container .row {
-    padding-top: 5vmin;
+    padding-top: 8vmin;
 }
 
 /* End of Testimonials section */
@@ -234,6 +234,18 @@ body {
     transform: translateY(-10px);
 }
 
+@media only screen and (max-width:425px) {
+    .social-icons img {
+        width: 50px;
+        transition: 0.5s;
+    }
+
+    #social-media p {
+        font-size: 8vmin;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+}
 
 /* Footer section */
 
